@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadim MBACKE | Ingénieur Développement SIG & WEB</title>
+    <meta name="description" content="Portfolio de Khadim MBACKE - Ingénieur Développement SIG/WEB chez Systel-SA. Spécialiste des applications WebGIS et systèmes informatiques pour la sécurité civile.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- En-tête / Navigation -->
+    <header class="fixed w-full bg-slate-900/90 backdrop-blur-md z-50 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold tracking-tight text-brand-500">xaadim<span class="text-white">.dev</span></a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-brand-500 transition">À propos</a>
+                <a href="#skills" class="hover:text-brand-500 transition">Compétences</a>
+                <a href="#experience" class="hover:text-brand-500 transition">Expériences</a>
+                <a href="#education" class="hover:text-brand-500 transition">Formation</a>
+                <a href="#contact" class="hover:text-brand-500 transition">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-brand-600 hover:bg-brand-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition">Me contacter</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-32 pb-20 px-4 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+        <div class="space-y-6 md:w-2/3">
+            <div class="inline-block bg-brand-900/50 text-brand-500 border border-brand-500/30 px-3 py-1 rounded-full text-sm font-medium">
+                Ingénieur Développement SIG / WEB
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
+                Bonjour, je suis <span class="text-brand-500">Khadim MBACKE</span>
+            </h1>
+            <p class="text-slate-300 text-lg leading-relaxed">
+                Ingénieur Développement SIG/WEB chez <strong>Systel-SA</strong> (Région de La Rochelle)[cite: 2]. Spécialisé dans la conception d'applications web et géographiques pour la sécurité civile, visant à optimiser la prise de décision en situation d'urgence[cite: 2].
+            </p>
+            <div class="flex flex-wrap gap-4 pt-2">
+                <a href="https://linkedin.com/in/khadimm" target="_blank" rel="noopener noreferrer" class="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 px-6 py-3 rounded-lg flex items-center gap-2 font-medium transition">
+                    <i class="fab fa-linkedin text-blue-400 text-lg"></i> Profil LinkedIn
+                </a>
+                <a href="mailto:contact@khadimdev.com" class="bg-brand-600 hover:bg-brand-500 text-white px-6 py-3 rounded-lg flex items-center gap-2 font-medium transition">
+                    <i class="fas fa-envelope"></i> Contact
+                </a>
+            </div>
+        </div>
+        <!-- Photo de profil (Avatar Animé) -->
+        <div class="md:w-1/3 flex justify-center">
+            <div class="relative w-64 h-64 rounded-2xl overflow-hidden border-2 border-brand-500/40 shadow-2xl shadow-brand-500/10">
+                <img src="avatar-khadim.jpg" alt="Khadim MBACKE" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Techniques -->
+    <section id="skills" class="py-16 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center text-white">Compétences Techniques</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- SIG & Sécurité Civile -->
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-brand-500/50 transition">
+                    <div class="w-12 h-12 bg-brand-900/50 text-brand-500 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">SIG & Sécurité Civile</h3>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li>• Applications cartographiques décisionnelles d'urgence[cite: 2]</li>
+                        <li>• Directive européenne Inspire & catalogage SIG[cite: 2]</li>
+                        <li>• QGIS, ArcGIS, MapInfo, GeoServer[cite: 1]</li>
+                        <li>• Bases de données spatiales (PostgreSQL / PostGIS)[cite: 1]</li>
+                    </ul>
+                </div>
+
+                <!-- Développement Web -->
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-brand-500/50 transition">
+                    <div class="w-12 h-12 bg-brand-900/50 text-brand-500 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Développement Web & Systèmes</h3>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li>• Développement Web Full-Stack & Cartographie Interactive[cite: 2]</li>
+                        <li>• JavaScript, Leaflet, OpenLayers[cite: 1]</li>
+                        <li>• PHP, Symfony, MySQL, PostgreSQL[cite: 1]</li>
+                        <li>• Maintenance et systèmes informatiques[cite: 2]</li>
+                    </ul>
+                </div>
+
+                <!-- Architecture & Données -->
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 hover:border-brand-500/50 transition">
+                    <div class="w-12 h-12 bg-brand-900/50 text-brand-500 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Architecture & Données</h3>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li>• Modélisation des besoins en information géographique[cite: 2]</li>
+                        <li>• Traitement statistique & analyse de données[cite: 2]</li>
+                        <li>• Structuration et qualification des données partenaires[cite: 2]</li>
+                        <li>• Multimédia (Photoshop, Illustrator, InDesign)[cite: 1]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expériences Professionnelles -->
+    <section id="experience" class="py-16 max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-12 text-center text-white">Expériences Professionnelles</h2>
+        <div class="space-y-8">
+            <!-- Systel-SA -->
+            <div class="bg-slate-800/60 p-6 rounded-xl border border-slate-700">
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <h3 class="text-xl font-bold text-brand-500">Ingénieur Développement SIG / WEB</h3>
+                    <span class="bg-brand-900/60 text-brand-400 border border-brand-500/30 text-xs px-3 py-1 rounded-full w-fit mt-1 md:mt-0">Juin 2016 – Présent</span>
+                </div>
+                <h4 class="text-slate-300 font-medium mb-3">Systel-SA — Région de La Rochelle, France[cite: 2]</h4>
+                <ul class="list-disc list-inside text-slate-400 space-y-2 text-sm">
+                    <li>Développement d'applications WEB et SIG pour la sécurité civile[cite: 2].</li>
+                    <li>Mise en place de solutions technologiques et géographiques visant à améliorer la prise de décision en situation d'urgence[cite: 2].</li>
+                    <li>Gestion et maintenance des systèmes informatiques et solutions applicatives[cite: 2].</li>
+                </ul>
+            </div>
+
+            <!-- Parc National de la Vanoise - Chargé de mission -->
+            <div class="bg-slate-800/60 p-6 rounded-xl border border-slate-700">
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <h3 class="text-xl font-bold text-slate-200">Chargé de mission SIG & Développement Cartographique</h3>
+                    <span class="text-slate-400 text-sm">Sept. 2015 – Déc. 2015[cite: 2]</span>
+                </div>
+                <h4 class="text-slate-300 font-medium mb-3">Parc National de la Vanoise — Chambéry, France[cite: 2]</h4>
+                <ul class="list-disc list-inside text-slate-400 space-y-2 text-sm">
+                    <li>Développement d'applications de cartographie dynamique open source (Intranet SIG et mobile)[cite: 2].</li>
+                    <li>Gestion, structuration, qualification et modélisation d'architectures de données[cite: 2].</li>
+                    <li>Catalogage des données SIG selon la directive européenne Inspire[cite: 2].</li>
+                </ul>
+            </div>
+
+            <!-- Parc National de la Vanoise - Stage -->
+            <div class="bg-slate-800/60 p-6 rounded-xl border border-slate-700">
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                    <h3 class="text-xl font-bold text-slate-200">Stagiaire Master 2 : Développeur d'Application Cartographique</h3>
+                    <span class="text-slate-400 text-sm">Avr. 2015 – Oct. 2015[cite: 2]</span>
+                </div>
+                <h4 class="text-slate-300 font-medium mb-3">Parc National de la Vanoise — Chambéry, France[cite: 2]</h4>
+                <ul class="list-disc list-inside text-slate-400 space-y-2 text-sm">
+                    <li>Développement d'une application de cartographie interactive sur internet pour la gestion des câbles dangereux[cite: 2].</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation -->
+    <section id="education" class="py-16 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center text-white">Formation Académique</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <span class="text-brand-500 font-semibold text-sm">2014 - 2015[cite: 2]</span>
+                    <h3 class="text-lg font-bold text-white mt-1">Master 2 (M2) Géomatique SIG[cite: 2]</h3>
+                    <p class="text-slate-400 text-sm">Université Jean Monnet Saint-Étienne — France[cite: 2]</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <span class="text-brand-500 font-semibold text-sm">2013 - 2014[cite: 2]</span>
+                    <h3 class="text-lg font-bold text-white mt-1">Master 1 Géomatique SIG[cite: 2]</h3>
+                    <p class="text-slate-400 text-sm">Université Jean Monnet Saint-Étienne — France[cite: 2]</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <span class="text-brand-500 font-semibold text-sm">2012 - 2013[cite: 2]</span>
+                    <h3 class="text-lg font-bold text-white mt-1">Licence Informatique Création Multimédia[cite: 2]</h3>
+                    <p class="text-slate-400 text-sm">Université Cheikh Anta Diop de Dakar (UCAD) — Sénégal[cite: 2]</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <span class="text-brand-500 font-semibold text-sm">2010 - 2012[cite: 2]</span>
+                    <h3 class="text-lg font-bold text-white mt-1">Licence Géographie Physique[cite: 2]</h3>
+                    <p class="text-slate-400 text-sm">Université Cheikh Anta Diop de Dakar (UCAD) — Sénégal[cite: 2]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact" class="py-12 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold text-white mb-4">Me Contacter</h2>
+            <p class="text-slate-400 mb-6">Basé dans le Canton d'Aytré, Nouvelle-Aquitaine, France[cite: 2].</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="mailto:contact@khadimdev.com" class="text-slate-400 hover:text-brand-500 text-2xl transition" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/khadimm" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-brand-500 text-2xl transition" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-slate-500 text-sm">&copy; 2026 Khadim MBACKE — xaadim.dev. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
