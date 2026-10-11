@@ -1,0 +1,9 @@
+{
+  "name": "xaadimdev",
+  "compatibility_date": "2026-10-11",
+  "assets": {
+    "directory": "."
+  },
+  "preview_urls": true,
+  "previews": {}
+}
